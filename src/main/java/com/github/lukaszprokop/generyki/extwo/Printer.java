@@ -4,7 +4,9 @@ import java.util.List;
 import java.util.stream.IntStream;
 
 class ListPrinter {
-    // TODO: Napraw tą klasę tak aby po wszystkim nie było ostrzeżenia o surowym użyciu listy (Raw use),
+
+    // TODO: Napraw tą klasę nie dodając typów generycznych przy nazwie klasy
+    //  tak aby po wszystkim nie było ostrzeżenia o surowym użyciu listy (Raw use),
     //  dlaczego takie przeładowanie nie działa?
     void print(List<String> listOne, List<String> listTwo){
         IntStream.range(0, listOne.size())
@@ -18,6 +20,7 @@ class ListPrinter {
 }
 
 class ArrayPrinter {
+
     //TODO: Przykład działającego przeładowania metody
     void print(String[] arrayOne, String[] arrayTwo){
         IntStream.range(0, arrayOne.length)
