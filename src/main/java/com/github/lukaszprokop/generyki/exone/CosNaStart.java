@@ -9,7 +9,7 @@ class Main{
 
 class CosNaStart {
 // TODO: Przerób tą klasę tak aby można było uruchomić Main.main()
-    private String number;
+    private final String number;
 
     public CosNaStart(String number) {
         this.number = number;
