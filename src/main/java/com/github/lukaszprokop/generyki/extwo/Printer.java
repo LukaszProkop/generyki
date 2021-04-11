@@ -3,6 +3,11 @@ package com.github.lukaszprokop.generyki.extwo;
 import java.util.List;
 import java.util.stream.IntStream;
 
+/**
+ * Program odpalisz w {@link Main#main(String[])}
+ * <br>
+ * Następne zadanie znajdziesz tu: {@link com.github.lukaszprokop.generyki.exthree.Printer}
+ */
 class ListPrinter {
 
     // TODO: Napraw tą klasę nie dodając typów generycznych przy nazwie klasy

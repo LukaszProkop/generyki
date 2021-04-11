@@ -1,5 +1,8 @@
 package com.github.lukaszprokop.generyki.exone;
 
+/**
+ * Następne zadanie znajdziesz tu: {@link com.github.lukaszprokop.generyki.extwo.ListPrinter}
+ */
 class Main{
     public static void main(String[] args) {
         System.out.println(new CosNaStart(1));
@@ -8,16 +11,16 @@ class Main{
 }
 
 class CosNaStart {
-// TODO: Przerób tą klasę tak aby można było uruchomić Main.main()
-    private final String number;
+// TODO: Przerób tą klasę zamieniając Object na typ generyczny
+    private final Object number;
 
-    public CosNaStart(String number) {
+    public CosNaStart(Object number) {
         this.number = number;
     }
 
     @Override
     public String toString() {
-        return number;
+        return number.toString();
     }
 }
 
